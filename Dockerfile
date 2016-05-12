@@ -19,5 +19,5 @@ RUN mkdir -p /usr/local/src/caddy \
     && chmod +x /usr/local/src/caddy/caddy \
     && ln -s /usr/local/src/caddy/caddy /usr/local/bin/caddy
 
-EXPOSE 2015
+EXPOSE 80 443 2015
 CMD ["caddy"]
