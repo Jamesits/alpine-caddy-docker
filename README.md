@@ -6,4 +6,4 @@ Caddy server on Alpine in Docker.
  * Always building the newest version
  * less than 40MB disk footprint
 
- You'll love it.
+You'll love it.

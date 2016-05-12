@@ -19,9 +19,5 @@ RUN mkdir -p /usr/local/src/caddy \
     && chmod +x /usr/local/src/caddy/caddy \
     && ln -s /usr/local/src/caddy/caddy /usr/local/bin/caddy
 
-COPY docker-entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
-
 EXPOSE 2015
-ENTRYPOINT ["/entrypoint.sh"]
 CMD ["caddy"]
